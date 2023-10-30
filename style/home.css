@@ -1,0 +1,47 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#top-10 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-image: url(../assets/unsplash_vjMgqUkS8q8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+@media (max-width: 575px) {
+  #top-10 {
+    background-image: url(../assets/unsplash_Fsgzm8N0hIY.png);
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  #top-10 {
+    background-image: url(../assets/unsplash_Fsgzm8N0hIY.png);
+    background-size: cover;
+  }
+}
+#top-10 .section-title-txt {
+  font-size: xx-large;
+  font-weight: 900;
+}
+#top-10 .section-txt {
+  font-weight: 900;
+}
+#top-10 .section-txt1 {
+  font-size: x-large;
+}
+#top-10 .section-txt2 {
+  font-size: large;
+}
+#top-10 .section-txt3 {
+  font-size: large;
+}/*# sourceMappingURL=home.css.map */

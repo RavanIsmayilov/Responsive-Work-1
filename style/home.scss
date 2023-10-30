@@ -1,0 +1,76 @@
+@import "./mixins";
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+
+    margin:0;
+}
+
+
+#top-10{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/unsplash_vjMgqUkS8q8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff ;
+   
+    @include mobile{
+    
+      
+        background-image: url(../assets/unsplash_Fsgzm8N0hIY.png);
+        background-size: cover;
+
+    }
+
+    @include tablet{
+    
+        background-image: url(../assets/unsplash_Fsgzm8N0hIY.png);
+        background-size: cover; 
+    }
+ 
+    .section{
+
+      
+
+        &-title{
+         
+
+            &-txt{
+                font-size: xx-large;
+                font-weight: 900;          
+            }
+        }
+
+   
+        &-txt{
+            font-weight: 900;
+
+            &1{
+                font-size: x-large;
+
+
+            }
+
+            &2{
+                font-size: large;
+
+
+            }
+            &3{
+                font-size: large;
+
+
+            }
+
+        
+        }
+    }
+}
